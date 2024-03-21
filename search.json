@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "quarto_ran",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n# Load the leaflet package\nlibrary(leaflet)\n\nWarning: package 'leaflet' was built under R version 4.2.3\n\n# Create sample data points\ndata &lt;- data.frame(\n  lat = c(40.7128, 34.0522, 41.8781),\n  lng = c(-74.0060, -118.2437, -87.6298),\n  name = c(\"New York\", \"Los Angeles\", \"Chicago\")\n)\n\n# Create a leaflet map\nm &lt;- leaflet(data) %&gt;% \n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(~lng, ~lat, popup = ~name)  # Add markers based on the data frame\n\n# Print the map\nm"
   },
   {
     "objectID": "about.html",
