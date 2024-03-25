@@ -3,7 +3,7 @@
     "path": "C:/Users/stf45/Documents/Courses/quarto/quarto_ran/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "1168787839",
+    "hash": "0",
     "contents": "",
     "dirty": true,
     "created": 1711035934603.0,
@@ -12,15 +12,20 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "26,0",
-        "scrollLine": "4"
+        "cursorPosition": "9,0",
+        "scrollLine": "2",
+        "rmdVisualMode": "true",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "222:161.81817626953125",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1"
     },
     "folds": "",
     "lastKnownWriteTime": 1711037660,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1711037668559,
+    "last_content_update": 1711038070013,
     "read_only": false,
     "read_only_alternatives": []
 }

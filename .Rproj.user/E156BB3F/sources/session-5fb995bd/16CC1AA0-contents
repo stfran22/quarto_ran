@@ -1,10 +1,15 @@
 ---
 title: "quarto_ran"
+description: "prep data, make a map, write some insights"
 ---
 
 This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+## Data Prep
+
+here's what i did:
 
 ```{r}
 

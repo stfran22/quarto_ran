@@ -1,0 +1,28 @@
+"0",""
+"0","# Load the leaflet package"
+"0","library(leaflet)"
+"2","Warning: package ‘leaflet’ was built under R version 4.2.3"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"0","# Create sample data points"
+"0","data <- data.frame("
+"0","  lat = c(40.7128, 34.0522, 41.8781),"
+"0","  lng = c(-74.0060, -118.2437, -87.6298),"
+"0","  name = c(""New York"", ""Los Angeles"", ""Chicago"")"
+"0",")"
+"0",""
+"0","# Create a leaflet map"
+"0","m <- leaflet(data) %>% "
+"0","  addTiles() %>%  # Add default OpenStreetMap map tiles"
+"0","  addMarkers(~lng, ~lat, popup = ~name)  # Add markers based on the data frame"
+"0",""
+"0","# Print the map"
+"0",""
